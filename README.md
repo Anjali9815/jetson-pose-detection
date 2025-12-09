@@ -1,4 +1,4 @@
-# 🧍‍♀️ Jetson GymFit Pose Detection – Phase 1 🤖  
+# 🧍‍♀️ Jetson  Pose Detection – Phase 1 🤖  
 ### *T-Pose Classification using Jetson Inference + SVM*
 
 <p align="center">
@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <img src="pose_data/test_images/Jetson.png" alt="Jetson GymFit Demo" width="720"/>
+  <img src="pose_data/test_images/Jetson.png" alt="Jetson  Demo" width="720"/>
 </p>
 
-**Jetson GymFit** is an edge AI project that leverages **NVIDIA Jetson Inference PoseNet** to detect human body poses and classify them using a Support Vector Machine (SVM).  
+**Jetson ** is an edge AI project that leverages **NVIDIA Jetson Inference PoseNet** to detect human body poses and classify them using a Support Vector Machine (SVM).  
 This first phase focuses on identifying **T-Pose** vs **Not-T-Pose** using keypoints generated from PoseNet and stored for model training.
 
 ---
@@ -26,7 +26,7 @@ This first phase focuses on identifying **T-Pose** vs **Not-T-Pose** using keypo
 ✅ **Real-Time Prediction** – runs inference with saved `.pkl` models.  
 
 <p align="center">
-  <img src="pose_data/test_images/Architecture.png" alt="Jetson GymFit System Architecture" width="800"/>
+  <img src="pose_data/test_images/Architecture.png" alt="Jetson  System Architecture" width="800"/>
 </p>
 
 ---
@@ -34,7 +34,7 @@ This first phase focuses on identifying **T-Pose** vs **Not-T-Pose** using keypo
 ## ⚙️ Folder Structure
 
 ```bash
-jetson-gymfit-pose-detection/
+jetson-pose-detection/
 ├── data/
 │   └── pose_keypoints.csv
 ├── pose_data/
